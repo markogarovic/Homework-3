@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+body{
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+
+#first{
+    display: flex;
+    width: 66%;
+    margin: auto;
+    margin-bottom: 150px;
+    background-color: lightgray;
+}
+#first #text{
+    flex: 3;
+}
+#first > *{
+    flex: 1;
+    padding: 10px 0;
+    margin: 15px;
+}
+#option{
+    display: flex;
+}
+#option > *{
+    flex: 1;
+}
+
+#second{
+    width: 66%;
+    margin: auto;
+    background-color: lightgray;
+}
+table{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+
+th,td{
+    width: 14.25%;
+
+}
+th *, td *{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+td > button{
+    width: 30%;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: lightgray;
+}
+td > button > *{
+    max-width: 70%;
+}
+
+
+
+.img{
+    position: relative;
+}
+.img > p{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.img:hover{
+    opacity: 0.3;
+}
+.img:hover > p{
+    visibility: visible;
+    opacity: 1;
+}
+.loadMoreBtn{
+    margin: 20px 0;
+}

@@ -1,0 +1,119 @@
+[
+    {
+        "naziv": "GTA V",
+        "slika": "https://cdn.images.express.co.uk/img/dynamic/143/590x/GTA-1154652.jpg?r=1563558956193",
+        "datum": "01.06.2011",
+        "izdavac": "Rockstar",
+        "zanr": ["Action","RPG"],
+        "ocjena": "9.5"
+    },
+    {
+        "naziv": "FIFA 2020",
+        "slika": "https://www.digiseller.ru/preview/748667/p1_2717144_684d263c.png",
+        "datum": "26.09.2019",
+        "izdavac": "FIFA",
+        "zanr": ["Sport"],
+        "ocjena": "8.3"
+    },
+    {
+        "naziv": "FORTNITE",
+        "slika": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxf0esPQWMElY6XhaSINcqCDu9ktNiU6EtYNgs6rtL3Ha6PeTG&usqp=CAU",
+        "datum": "03.03.2013",
+        "izdavac": "Fortnite",
+        "zanr": ["Action","RPG"],
+        "ocjena": "9.6"
+    },
+    {
+        "naziv": "GTA V",
+        "slika": "https://cdn.images.express.co.uk/img/dynamic/143/590x/GTA-1154652.jpg?r=1563558956193",
+        "datum": "01.06.2011",
+        "izdavac": "Rockstar",
+        "zanr": ["Action","RPG"],
+        "ocjena": "9.5"
+    },
+    {
+        "naziv": "FIFA 2020",
+        "slika": "https://www.digiseller.ru/preview/748667/p1_2717144_684d263c.png",
+        "datum": "26.09.2019",
+        "izdavac": "FIFA",
+        "zanr": ["Sport"],
+        "ocjena": "8.3"
+    },
+    {
+        "naziv": "FORTNITE",
+        "slika": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxf0esPQWMElY6XhaSINcqCDu9ktNiU6EtYNgs6rtL3Ha6PeTG&usqp=CAU",
+        "datum": "03.03.2013",
+        "izdavac": "Fortnite",
+        "zanr": ["Action","RPG"],
+        "ocjena": "9.6"
+    },{
+        "naziv": "GTA V",
+        "slika": "https://cdn.images.express.co.uk/img/dynamic/143/590x/GTA-1154652.jpg?r=1563558956193",
+        "datum": "01.06.2011",
+        "izdavac": "Rockstar",
+        "zanr": ["Action","RPG"],
+        "ocjena": "9.5"
+    },
+    {
+        "naziv": "FIFA 2020",
+        "slika": "https://www.digiseller.ru/preview/748667/p1_2717144_684d263c.png",
+        "datum": "26.09.2019",
+        "izdavac": "FIFA",
+        "zanr": ["Sport"],
+        "ocjena": "8.3"
+    },
+    {
+        "naziv": "FORTNITE",
+        "slika": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxf0esPQWMElY6XhaSINcqCDu9ktNiU6EtYNgs6rtL3Ha6PeTG&usqp=CAU",
+        "datum": "03.03.2013",
+        "izdavac": "Fortnite",
+        "zanr": ["Action","RPG"],
+        "ocjena": "9.6"
+    },{
+        "naziv": "GTA V",
+        "slika": "https://cdn.images.express.co.uk/img/dynamic/143/590x/GTA-1154652.jpg?r=1563558956193",
+        "datum": "01.06.2011",
+        "izdavac": "Rockstar",
+        "zanr": ["Action","RPG"],
+        "ocjena": "9.5"
+    },
+    {
+        "naziv": "FIFA 2020",
+        "slika": "https://www.digiseller.ru/preview/748667/p1_2717144_684d263c.png",
+        "datum": "26.09.2019",
+        "izdavac": "FIFA",
+        "zanr": ["Sport"],
+        "ocjena": "8.3"
+    },
+    {
+        "naziv": "FORTNITE",
+        "slika": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxf0esPQWMElY6XhaSINcqCDu9ktNiU6EtYNgs6rtL3Ha6PeTG&usqp=CAU",
+        "datum": "03.03.2013",
+        "izdavac": "Fortnite",
+        "zanr": ["Action","RPG"],
+        "ocjena": "9.6"
+    },{
+        "naziv": "GTA V",
+        "slika": "https://cdn.images.express.co.uk/img/dynamic/143/590x/GTA-1154652.jpg?r=1563558956193",
+        "datum": "01.06.2011",
+        "izdavac": "Rockstar",
+        "zanr": ["Action","RPG"],
+        "ocjena": "9.5"
+    },
+    {
+        "naziv": "FIFA 2020",
+        "slika": "https://www.digiseller.ru/preview/748667/p1_2717144_684d263c.png",
+        "datum": "26.09.2019",
+        "izdavac": "FIFA",
+        "zanr": ["Sport"],
+        "ocjena": "8.3"
+    },
+    {
+        "naziv": "FORTNITE",
+        "slika": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxf0esPQWMElY6XhaSINcqCDu9ktNiU6EtYNgs6rtL3Ha6PeTG&usqp=CAU",
+        "datum": "03.03.2013",
+        "izdavac": "Fortnite",
+        "zanr": ["Action","RPG"],
+        "ocjena": "9.6"
+    }
+]

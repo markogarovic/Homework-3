@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Awesome Fone -->
+    
+    <title>Uno</title>
+  </head>
+  <body>
+    <div class="header">
+        <div class="content">
+            <h1>Available Budget in </h1>
+            <p id="budget">0.00</p>
+            <div class="row">
+                <div class="col-6 bg-success">
+                    <p>INCOME</p>
+                </div>
+                <div class="col-6 bg-success">
+                    <p id="amountPlus">+ 0.00</p>
+                </div>
+                <div class="col-6 bg-danger">
+                    <p>EXPENSES</p>
+                </div>
+                <div class="col-6 bg-danger">
+                    <p id="amountMinus">- 0.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="input">
+        <div class="row">
+            <form id="addForm">
+              <select name="sign" id="sign" class="col-lg-1 col-md-1">
+                  <option value="plus" selected>+</option>
+                  <option value="minus">-</option>
+              </select>
+              <input type="text" placeholder="Add description" class="col-lg-7 col-md-7" id="description" required>
+              <input type="number" step="any" min="0" placeholder="Value" class="col-lg-2 col-md-3 " id="value" required>
+              <button class="col-lg-1 col-md-12" id="submit">ADD</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="row">
+            <div class="card col-lg-5 col-md-12" id="textGreen">
+                <p class="card-header">INCOME</p>
+                <ul class="list-group list-group-flush" id="income">
+                  
+                </ul>
+              </div>
+              <div class="card col-lg-5 col-md-12" id="textRed">
+                <p class="card-header">EXPENSES</p>
+                <ul class="list-group list-group-flush" id="expenses">
+                  
+                </ul>
+              </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <button class="btn btn-primary" id="save">Save</button>
+    </div>
+
+    <script src="index.js"></script>
+    <div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </div>
+  </body>
+</html>

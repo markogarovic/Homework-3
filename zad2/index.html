@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div id="first">
+        <input type="text"  id="filter">
+        <button id="search" class="btn">Search</button>
+        <div id="option">
+            <div id="opt1">
+                <input type="radio" name="option" id="ime" checked>
+                <label for="ime">Ime</label>
+            </div>
+            <div id="opt2">
+                <input type="radio" name="option" id="zanr">
+                <label for="zanr">Žanr</label>
+            </div>
+        </div>
+        <select id="selection">
+            <option  value="1" disabled selected>Ocjena</option>
+            <option  value="2" >2</option>
+            <option  value="3" >3</option>
+            <option  value="4" >4</option>
+            <option  value="5" >5</option>
+            <option  value="6" >6</option>
+            <option  value="7" >7</option>
+            <option  value="8" >8</option>
+            <option  value="9" >9</option>
+            <option  value="10" >10</option>
+            
+        </select>
+    </div>
+
+    <div id="second">
+        <table id="output">
+            <tr>
+                <th>Broj</th>
+                <th>Slika</th>
+                <th>Datum izlaska</th>
+                <th>Izdavač</th>
+                <th>Žanr</th>
+                <th>Ocjena</th>
+                <th></th>
+            </tr>
+            <!-- <tr>
+                <td>1.</td>
+                <td><img src="https://steamcdn-a.akamaihd.net/steam/apps/550650/capsule_616x353.jpg?t=1541059069" alt="black_squad"></td>
+                <td>14.09.2013</td>
+                <td>Rockstar</td>
+                <td>Akcija, RPG</td>
+                <td>9.4</td>
+                <td ><button class="delete" id="delete">X</button></td>
+            </tr> -->
+        </table>
+    </div>
+
+    <div id="button">
+        <button class="loadMoreBtn" id="loadMoreBtn">Load more</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
